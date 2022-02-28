@@ -24,4 +24,5 @@ function finderName(array, string) {
   }
 }
 
+// i.e:
 console.log(finderName(nameFinder, 'Natasha'));
