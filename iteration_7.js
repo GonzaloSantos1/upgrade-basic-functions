@@ -15,9 +15,9 @@ const nameFinder = [
 ];
 
 function finderName(array, string) {
-  if (nameFinder.includes(string)) {
+  if (array.includes(string)) {
     return (
-      'true, la posición del string es la número ' + nameFinder.indexOf(string)
+      'true, la posición del string es la número ' + array.indexOf(string)
     );
   } else {
     return false;
