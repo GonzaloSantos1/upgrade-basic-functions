@@ -13,7 +13,7 @@ function averageWord(param) {
     }
   }
 
-  return sum / mixedElements.length;
+  return sum;
 }
 
 console.log(averageWord(mixedElements));
