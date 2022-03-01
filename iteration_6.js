@@ -17,9 +17,9 @@ const duplicates = [
 function removeDuplicates(param) {
   let array = [];
 
-  for (i = 0; i < duplicates.length; i++) {
-    if (array.includes(duplicates[i]) == false) {
-      array.push(duplicates[i]);
+  for (i = 0; i < param.length; i++) {
+    if (array.includes(param[i]) == false) {
+      array.push(param[i]);
     }
   }
   return array;
