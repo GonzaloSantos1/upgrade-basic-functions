@@ -10,14 +10,14 @@ const avengers = [
   'Captain M.',
 ];
 function findLongestWord(param) {
-  let longest = avengers[0].length;
-  let answer = avengers[0];
+  let longest = param[0].length;
+  let answer = param[0];
 
-  for (let i = 1; i < avengers.length; i++) {
-    let maxLength = avengers[i].length;
+  for (let i = 1; i < param.length; i++) {
+    let maxLength = param[i].length;
 
     if (maxLength > longest) {
-      answer = avengers[i];
+      answer = param[i];
       longest = maxLength;
     }
   }
